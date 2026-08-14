@@ -13,3 +13,5 @@ $stmt->bind_param("ssii", $titulo, $autor, $ano, $id);
 $stmt->execute();
 
 header("Location: ../index.php");
+
+?>
